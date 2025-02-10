@@ -4,7 +4,7 @@ public class StringMethod {
 
 	public static void main(String[] args) {
 
-		String str ="kaveri";
+		/*String str ="kaveri";
 		String str1="koli";
 		String str3="KAVERI";
 		String str2=str;
@@ -34,9 +34,27 @@ public class StringMethod {
 		System.out.println(result);
 		System.out.println(str.toCharArray());
 		System.out.println(str.substring(4));
-		System.out.println(str.subSequence(2, 5));
+		System.out.println(str.subSequence(2, 5));*/
 		
+		StringBuffer str=new StringBuffer("john");
+		str.append("johnny");
+		/*System.out.println( str);
+		StringBuilder str1=new StringBuilder("koli");
+		System.out.println(str1.charAt(0));	
+		StringBuilder s2=str1.delete(0, 2);	
+		System.out.println(s2);
+		StringBuilder s3=str1.replace(0, 1, "hi");
+		System.out.println(s3);
+		StringBuilder str4=new StringBuilder("kaveri");
+		String st=str4.toString();
+		System.out.println(st);
+		StringBuffer st2=new StringBuffer("john");
+		String st3=st2.toString();
+		System.out.println(st3);*/
+		StringBuffer st2=str.insert(1,"hi");
+		System.out.println(st2);
+		System.out.println(str.hashCode());
 		
-		}
+	}
 
 }
